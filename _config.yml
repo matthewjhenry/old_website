@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Matthew Henry"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-	bio              : "PhD Candidate in Climate Science at McGill University. Views my own. Posts consist of explainers on my research and other papers I have read."
+  bio              : "PhD Candidate in Climate Science at McGill University. Views my own. Posts consist of explainers on my research and other papers I have read."
   location         : "Montreal"
   email            : matthew.jo.henry@gmail.com
   links:
