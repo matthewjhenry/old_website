@@ -12,7 +12,7 @@ mathjax: true
 
 Here is the temperature anomaly for 2016 : 
 
-<img src="{{ site.url }}{{site.baseurl }}/images/PA_obs.jpg" alt="Observational evidence for PA">
+<img src="{{ site.url }}{{ site.baseurl }}/images/PA_obs.jpg" alt="Observational evidence for PA">
 
 # What do the models say?
 
