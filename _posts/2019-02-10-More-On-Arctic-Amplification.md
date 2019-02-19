@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "More on Arctic Amplification"
+title: "Why is there more warming near the poles? A review."
 date: 2019-02-10
 use_math: true
 ---
