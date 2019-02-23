@@ -7,19 +7,19 @@ use_math: true
 
 <p>The Earth's surface is warming 2-3x faster in the Arctic than the global average. There are many different reasons for this Arctic amplification of warming but there is still debate on which is the dominant mechanism.</p>
 
-<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/cmip5_PA.png" alt="CMIP5 PA" style="width: 500px; height: auto;"></div>
+<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/cmip5_PA.png" alt="CMIP5 PA" style="width: 1000px; height: auto;"></div>
 
-<p>The figure above is from <a href='http://www.cgd.ucar.edu/staff/cdeser/docs/submitted.smith.pamip.mar18.pdf'>Smith et al. $($2018$)$</a> and shows the <i>pattern</i> of surface warming in projections of future climate change. The land warms faster than the ocean and the Arctic region warms from 2 to 4 times faster than the global mean $($see zonal average plot on the right$)$. </p>
+<p>The figure above is from <a href='http://www.cgd.ucar.edu/staff/cdeser/docs/submitted.smith.pamip.mar18.pdf'>Smith et al. 2018</a> and shows the <i>pattern</i> of surface warming in projections of future climate change. The land warms faster than the ocean and the Arctic region warms from 2 to 4 times faster than the global mean $($see zonal average plot on the right$)$. </p>
 
 <p>What are the possible reasons for this amplified warming?</p>
 
-<div style="text-align:center"><img src="https://micamus.github.io/images/pm14.png" alt="Polar Amplif decomp" style="width:250px;height:250px;" class="center"></div>
+<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/pm14.png" alt="Polar Amplif decomp" style="width: 500px; height: auto;"></div>
 
-<p>Using <a href='https://climatedataguide.ucar.edu/climate-data/radiative-kernels-climate-models'>radiative kernels</a>, <a href='https://www.nature.com/articles/ngeo2071'>Pithan and Mauritsen $($2014$)$</a> decomposed the pattern of warming into contributions from the different forcings and feedbacks. The figure above shows how much each forcing and feedback contribute to tropical warming $($x-axis$)$ and Arctic warming $($y-axis$)$. The albedo, for example, is a feedback that only affects the high latitudes, hence does not contribute to tropical warming $($0 on x-axis$)$ but does contribute to Arctic warming $($around 3.3K$)$. The distance from the one-to-one line $($gray dashed$)$ indicates whether the forcing/feedback contributes to Arctic or tropical amplification.</p>
+<p>Using <a href='https://climatedataguide.ucar.edu/climate-data/radiative-kernels-climate-models'>radiative kernels</a>, <a href='https://www.nature.com/articles/ngeo2071'>Pithan and Mauritsen 2014</a> decomposed the pattern of warming into contributions from the different forcings and feedbacks. The figure above shows how much each forcing and feedback contribute to tropical warming $($x-axis$)$ and Arctic warming $($y-axis$)$. The albedo, for example, is a feedback that only affects the high latitudes, hence does not contribute to tropical warming $($0 on x-axis$)$ but does contribute to Arctic warming $($around 3.3K$)$. The distance from the one-to-one line $($gray dashed$)$ indicates whether the forcing/feedback contributes to Arctic or tropical amplification.</p>
 
 <h3>Sea ice albedo feedback</h3>
 
-<div style="text-align:center"><img src="https://micamus.github.io/images/SAF.jpg" alt="NASA SAF" style="width:500px;height:auto;" class="center"></div>
+<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/SAF.jpg" alt="NASA SAF" style="width: 500px; height: auto;"></div>
 
 <p>This figure from <a href='https://svs.gsfc.nasa.gov/12277'>NASA</a> shows the 2016 Arctic sea ice minimum $($911,000 square miles$)$ and the 1981-2010 average $($gold line$)$. This decrease in sea ice extent leads to a decrease in surface albedo and induces additional local warming.</p>
 
@@ -29,7 +29,7 @@ use_math: true
 
 <p>The instantaneous impact of increasing greenhouse gas concentrations is to reduce the outgoing longwave radiation $($OLR$)$ at the top-of-atmosphere $($TOA$)$. Since the global-mean TOA outgoing longwave radiation must be equal to the absorbed solar radiation, which we assume does not change, the surface and tropospheric temperature must increase to increase the OLR. We artificially separate the vertical structure of warming into a vertically homogeneous part and its deviation. The Planck feedback corresponds to the total increase in OLR per degree of vertically homogeneous warming.</p>
 
-<div style="text-align:center"><img src="https://micamus.github.io/images/planck_fb.png" alt="Planck fb" style="width:400px;height:250px;" class="center"></div>
+<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/planck_fb.png" alt="Planck fb" style="width: 500px; height: auto;"></div>
 
 <p>The figure above is a schematic representation of the temperature dependence of infrared radiation. The Stefan-Boltzmann law lets us link the energy radiated by Earth $($mostly in the infrared spectrum$)$ and its temperature : $E=\sigma T^4$ where $\sigma$ is a constant. As illustrated in the figure, a cold body needs a higher increase in temperature to reach the same increase in radiation than a warm body. This is caused by the concavity of the curve, or its nonlinearity. Since the high latitudes are colder than the rest of the planet, this is thought to be a cause for polar amplification.</p>
 
