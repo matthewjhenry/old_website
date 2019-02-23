@@ -7,8 +7,7 @@ use_math: true
 
 <p>The Earth's surface is warming 2-3x faster in the Arctic than the global average. There are many different reasons for this Arctic amplification of warming but there is still debate on which is the dominant mechanism.</p>
 
-<div style="text-align:center"><img src="https://micamus.github.io/images/cmip5_PA.png" alt="CMIP5 PA" style="width:100%;height:auto;"></div>
-<br />
+<div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/cmip5_PA.png" alt="CMIP5 PA" style="width: 500px; height: auto;" class="center"></div>
 
 <p>The figure above is from <a href='http://www.cgd.ucar.edu/staff/cdeser/docs/submitted.smith.pamip.mar18.pdf'>Smith et al. $($2018$)$</a> and shows the <i>pattern</i> of surface warming in projections of future climate change. The land warms faster than the ocean and the Arctic region warms from 2 to 4 times faster than the global mean $($see zonal average plot on the right$)$. </p>
 
@@ -20,7 +19,7 @@ use_math: true
 
 <h3>Sea ice albedo feedback</h3>
 
-<div style="text-align:center"><img src="https://micamus.github.io/images/SAF.jpg" alt="NASA SAF" style="width:500px;height:250px;" class="center"></div>
+<div style="text-align:center"><img src="https://micamus.github.io/images/SAF.jpg" alt="NASA SAF" style="width:500px;height:auto;" class="center"></div>
 
 <p>This figure from <a href='https://svs.gsfc.nasa.gov/12277'>NASA</a> shows the 2016 Arctic sea ice minimum $($911,000 square miles$)$ and the 1981-2010 average $($gold line$)$. This decrease in sea ice extent leads to a decrease in surface albedo and induces additional local warming.</p>
 
