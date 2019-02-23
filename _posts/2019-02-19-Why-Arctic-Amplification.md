@@ -17,13 +17,15 @@ use_math: true
 
 <p>Using <a href='https://climatedataguide.ucar.edu/climate-data/radiative-kernels-climate-models'>radiative kernels</a>, <a href='https://www.nature.com/articles/ngeo2071'>Pithan and Mauritsen 2014</a> decomposed the pattern of warming into contributions from the different forcings and feedbacks. The figure above shows how much each forcing and feedback contribute to tropical warming $($x-axis$)$ and Arctic warming $($y-axis$)$. The albedo, for example, is a feedback that only affects the high latitudes, hence does not contribute to tropical warming $($0 on x-axis$)$ but does contribute to Arctic warming $($around 3.3K$)$. The distance from the one-to-one line $($gray dashed$)$ indicates whether the forcing/feedback contributes to Arctic or tropical amplification.</p>
 
+<p>There are problems with this accounting method as there is significant interaction between each feedback. This method accounts for each forcing/feedback's contribution to surface air temperature change, keeping the others fixed. For example, keeping the surface albedo feedback fixed would increase the role of atmospheric energy transport in amplifying polar warming. $($see <a href='https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL061700'>Merlis $(2014$)$</a>$)$.</p>
+
 <h3>Sea ice albedo feedback</h3>
 
 <div style="text-align:center;valign:center"><img src="https://micamus.github.io/images/SAF.jpg" alt="NASA SAF" style="width: 500px; height: auto;"></div>
 
 <p>This figure from <a href='https://svs.gsfc.nasa.gov/12277'>NASA</a> shows the 2016 Arctic sea ice minimum $($911,000 square miles$)$ and the 1981-2010 average $($gold line$)$. This decrease in sea ice extent leads to a decrease in surface albedo and induces additional local warming.</p>
 
-<p>As can be seen from the Pithan and Mauritsen $($2014$)$ figure, this is one of the dominant mechanisms for polar amplification. Idealized climate models that keep the sea ice albedo fixed as the climate warms still have Arctic amplification though, even if the amount of polar amplification in these simulations depends the type of insolation used $($see <a href='https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-17-0627.1'>Kim et al. $($2018$)$</a>$)$. This suggests there are more fundamental mechanisms at play.</p>
+<p>As can be seen from the Pithan and Mauritsen $($2014$)$ figure, this is one of the dominant mechanisms for polar amplification. Idealized climate models that keep the sea ice albedo fixed as the climate warms still have Arctic amplification though, even if the amount of polar amplification in these simulations depends on the type of insolation used $($see <a href='https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-17-0627.1'>Kim et al. $($2018$)$</a>$)$. This suggests there are more fundamental mechanisms at play.</p>
 
 <h3>Planck feedback</h3>
 
@@ -33,7 +35,7 @@ use_math: true
 
 <p>The figure above is a schematic representation of the temperature dependence of infrared radiation. The Stefan-Boltzmann law lets us link the energy radiated by Earth $($mostly in the infrared spectrum$)$ and its temperature : $E=\sigma T^4$ where $\sigma$ is a constant. As illustrated in the figure, a cold body needs a higher increase in temperature to reach the same increase in radiation than a warm body. This is caused by the concavity of the curve, or its nonlinearity. Since the high latitudes are colder than the rest of the planet, this is thought to be a cause for polar amplification.</p>
 
-<p>My <a href='https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0603.1'>first PhD project</a> consisted in testing how important this mechanism is. We used an idealized atmospheric gray radiation model with aquaplanet surface boundary condition $($just ocean, no continents$)$, no clouds and no sea ice. We simply replaced $E=\sigma T^4$ by $E=A + BT$ in the radiation code so that the increase in temperature necessary to increase the OLR is the same for all initial temperatures. This had no effect on the pattern of surface air warming as other factors such as atmospheric energy transport and lapse rate feedback changed to compensate. However, we did find that the $E=\sigma T^4$ nonlinearity affects the vertical structure of warming.</p>
+<p>My <a href='https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0603.1'>first PhD project</a> consisted in testing how important this mechanism is for arctic amplification. We used an idealized atmospheric gray radiation model with aquaplanet surface boundary condition $($no continents$)$, no clouds and no sea ice$($<a href='https://journals.ametsoc.org/doi/full/10.1175/JAS3753.1'>Frierson et al. $($2006$)$</a>$)$. We simply replaced $E=\sigma T^4$ by $E=A + BT$ in the radiation code so that the increase in temperature necessary to increase the OLR is the same for all initial temperatures. This had no effect on the pattern of surface air warming as other factors such as atmospheric energy transport and lapse rate feedback changed to compensate. However, we did find that the $E=\sigma T^4$ nonlinearity affects the vertical structure of warming.</p>
 
 <h3>Atmospheric energy transport</h3>
 
