@@ -1,5 +1,4 @@
 name: Matthew Henry
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-
-
+permalink: /notes/:year/:month/:day/:title
+google_analytics: UA-134775783-1
