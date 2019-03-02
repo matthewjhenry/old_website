@@ -5,7 +5,7 @@ date: 2019-02-25
 use_math: true
 ---
 
-<p>The Earth's surface is warming 2-3x faster in the Arctic than the global average. There are many different reasons for this Arctic amplification of warming but there is still debate on which is the dominant mechanism.</p>
+<p>The Earth's surface is warming 2-3x faster in the Arctic than the global average. There is still debate on which mechanism is dominant in generating Arctic amplification of surface air warming.</p>
 
 <div style="text-align:center;valign:center"><img src="https://matthewjhenry.github.io/images/cmip5_PA.png" alt="CMIP5 PA" style="width: 700px; height: auto;"></div>
 
