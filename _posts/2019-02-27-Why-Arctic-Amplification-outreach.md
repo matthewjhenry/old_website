@@ -65,4 +65,4 @@ use_math: true
 
 <h3>Conclusion</h3>
 
-<p>The simplest reason for polar amplification is the sea ice albedo feedback. However, other reasons such as an increase in atmospheric energy transport and the vertical structure of warming also seem to play a role. It is not yet clear what sets the vertical structure of warming in the Arctic, and how it interacts with the other feedbacks. In this whole discussion, we ignore the presence of clouds, which are important but hard to model precisely. We also ignore the seasonality of Arctic amplification, which is shown to be mainly a winter phenomenon.</p>
+<p>The commonly cited reason for polar amplification is the sea ice albedo feedback. However, other reasons such as an increase in atmospheric energy transport and the vertical structure of warming also seem to play a role. It is not yet clear what sets the vertical structure of warming in the Arctic, and how it interacts with the other feedbacks. In this whole discussion, we ignore the presence of clouds, which are important but hard to model precisely. We also ignore the seasonality of Arctic amplification, which is shown to be mainly a winter phenomenon.</p>
