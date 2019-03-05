@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Editing] [Outreach] What causes the arctic amplification of surface warming?"
+title: "[Outreach] What causes the arctic amplification of surface warming?"
 date: 2019-03-02
 use_math: true
 ---
