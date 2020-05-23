@@ -1,7 +1,9 @@
 body {
     width: 60%;
-    padding-left:  300px;
+    padding-left:  200px;
+    padding-right:  200px;
     padding-top:  50px;
+    padding-bottom:  50px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,15 +42,15 @@ ol {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 3;
-    width: 800px;
+    width: 850px;
 }
 ul.index { 
     width: 570px;
-    font-size: 4;
+    font-size: 6;
 }
 ul.posts { 
     width: 800px;
-    font-size: 4;
+    font-size: 6;
 }
 h2.posts { 
     width: 800px;
