@@ -63,7 +63,7 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 
 .center {
     display: block;
-    margin-left: 250px;
+    margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
